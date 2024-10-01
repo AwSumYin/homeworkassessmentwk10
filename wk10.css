@@ -1,0 +1,19 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;  /* Stack the elements vertically */
+    justify-content: flex-start;  /* Align the content at the top */
+    align-items: center;  /* Center horizontally */
+    overflow-x: hidden;   /* Disable horizontal scrolling */
+    overflow-y: auto;     /* Enable vertical scrolling */
+}
+
+#vis1, #vis2 {
+    width: 100%;
+    max-width: 1300px;  /* Set a maximum width to prevent the visualization from being too wide */
+    height: auto;
+    margin-bottom: 100px;  /* Add space between visualizations */
+}
