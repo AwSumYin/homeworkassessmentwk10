@@ -5,15 +5,28 @@ body, html {
     height: 100%;
     display: flex;
     flex-direction: column;  /* Stack the elements vertically */
-    justify-content: flex-start;  /* Align the content at the top */
-    align-items: center;  /* Center horizontally */
+    justify-content: flex-start;  /* Align content at the top */
+    align-items: center;  /* Center content horizontally */
     overflow-x: hidden;   /* Disable horizontal scrolling */
     overflow-y: auto;     /* Enable vertical scrolling */
 }
 
-#vis1, #vis2 {
+/* Styles for vis1 */
+#vis1 {
     width: 100%;
-    max-width: 1300px;  /* Set a maximum width to prevent the visualization from being too wide */
+    max-width: 2000px;  /* Set a reasonable width for vis1 */
     height: auto;
-    margin-bottom: 100px;  /* Add space between visualizations */
+    margin-bottom: 50px;  /* Space below vis1 */
+    display: flex;
+    justify-content: center;  /* Center the content horizontally */
+}
+
+/* Styles for vis2 */
+#vis2 {
+    width: 100%;
+    max-width: 2000px;  /* Set a reasonable width for vis2 */
+    height: auto;
+    margin-bottom: 100px;  /* Space below vis2 */
+    display: flex;
+    justify-content: center;  /* Center the content horizontally */
 }
